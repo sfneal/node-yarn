@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.11
 MAINTAINER Stephen Neal <stephen@stephenneal.net>
 
 WORKDIR /var/www
