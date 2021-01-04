@@ -3,8 +3,13 @@ language: ruby
 services:
   - docker
 
+env:
+  matrix:
+    - TAG=v1
+    - TAG=v2
+
 script:
-  - sh build.sh
+  - sh build.sh ${TAG}
 
 after_script:
   - docker images
