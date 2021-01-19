@@ -42,22 +42,6 @@ RUN yarn run ${yarn_env}
 RUN rm -r /var/www/node_modules
 ```
 
-After both front-end & back-end dependencies are installed in intermediate images, the essential files can be copied to the final image.
-
-```dockerfile
-# Build PHP-fpm running image
-FROM stephenneal/php-laravel:${php_laravel_tag}
-WORKDIR /var/www
-EXPOSE 9000
-VOLUME ["/var/www"]
-
-# Copy relevant files from back-end build
-COPY --from=composer /var/www .
-
-# Copy relevant files from front-end build
-COPY --from=node /var/www .
-```
-
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
