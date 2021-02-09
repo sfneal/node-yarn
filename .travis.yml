@@ -11,6 +11,7 @@ env:
   matrix:
     - TAG=v1
     - TAG=v2
+    - TAG=v3
 
 before_script:
   - echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin

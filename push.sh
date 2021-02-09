@@ -6,3 +6,4 @@ sh "${DIR}"/build.sh
 
 docker push stephenneal/node-yarn:v1
 docker push stephenneal/node-yarn:v2
+docker push stephenneal/node-yarn:v3

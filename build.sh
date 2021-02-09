@@ -17,4 +17,5 @@ if [ "$TAG" != null ]
   else
     docker build -t stephenneal/node-yarn:v1 "${DIR}"/v1/
     docker build -t stephenneal/node-yarn:v2 "${DIR}"/v2/
+    docker build -t stephenneal/node-yarn:v3 "${DIR}"/v3/
 fi
