@@ -1,4 +1,4 @@
-# stephenneal/node-yarn
+# sfneal/node-yarn
 
 [![Build Status](https://travis-ci.com/sfneal/node-yarn.svg?branch=master&style=flat-square)](https://travis-ci.com/sfneal/node-yarn)
 [![Total Downloads](https://img.shields.io/docker/pulls/stephenneal/node-yarn?style=flat-square)](https://hub.docker.com/r/stephenneal/node-yarn)
