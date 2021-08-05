@@ -20,4 +20,5 @@ if [ "$TAG" != null ]
     docker push stephenneal/node-yarn:v1
     docker push stephenneal/node-yarn:v2
     docker push stephenneal/node-yarn:v3
+    docker push stephenneal/node-yarn:v4
 fi
