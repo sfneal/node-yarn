@@ -1,5 +1,5 @@
 FROM alpine:3.12
-MAINTAINER Stephen Neal <stephen@stephenneal.net>
+LABEL org.opencontainers.image.authors="stephen@stephenneal.net"
 
 WORKDIR /var/www
 
