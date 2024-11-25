@@ -21,8 +21,18 @@ if [ "$TAG" != null ]
     docker build -t stephenneal/node-yarn:v4 "${DIR}"/v4/
 
     docker build -t stephenneal/node-yarn:v18-alpine "${DIR}"/v18-alpine/
+    docker build -t stephenneal/node-yarn:v18-bullseye "${DIR}"/v18-bullseye/
+    docker build -t stephenneal/node-yarn:v18-slim "${DIR}"/v18-slim/
     docker build -t stephenneal/node-yarn:v20-alpine "${DIR}"/v20-alpine/
+    docker build -t stephenneal/node-yarn:v20-bullseye "${DIR}"/v20-bullseye/
+    docker build -t stephenneal/node-yarn:v20-slim "${DIR}"/v20-slim/
     docker build -t stephenneal/node-yarn:v21-alpine "${DIR}"/v21-alpine/
+    docker build -t stephenneal/node-yarn:v21-bullseye "${DIR}"/v21-bullseye/
+    docker build -t stephenneal/node-yarn:v21-slim "${DIR}"/v21-slim/
     docker build -t stephenneal/node-yarn:v22-alpine "${DIR}"/v22-alpine/
+    docker build -t stephenneal/node-yarn:v22-bullseye "${DIR}"/v22-bullseye/
+    docker build -t stephenneal/node-yarn:v22-slim "${DIR}"/v22-slim/
     docker build -t stephenneal/node-yarn:v23-alpine "${DIR}"/v23-alpine/
+    docker build -t stephenneal/node-yarn:v23-bullseye "${DIR}"/v23-bullseye/
+    docker build -t stephenneal/node-yarn:v23-slim "${DIR}"/v23-slim/
 fi
