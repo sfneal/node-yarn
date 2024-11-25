@@ -6,6 +6,6 @@ WORKDIR /var/www
 # Update OS
 # Install bash & NPM
 # Install Yarn using NPM
-RUN apk update \
-	&& apk add \
-		bash
+RUN apt-get update \
+    && apt-get install \
+    	bash
