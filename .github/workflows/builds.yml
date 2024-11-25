@@ -14,6 +14,12 @@ jobs:
                     v2,
                     v3,
                     v4,
+
+                    v18-alpine,
+                    v20-alpine,
+                    v21-alpine,
+                    v22-alpine,
+                    v23-alpine,
                 ]
 
         name: TAG-${{ matrix.tag }}
