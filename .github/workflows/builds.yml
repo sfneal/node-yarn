@@ -14,6 +14,22 @@ jobs:
                     v2,
                     v3,
                     v4,
+
+                    v18-alpine,
+                    v18-bullseye,
+                    v18-slim,
+                    v20-alpine,
+                    v20-bullseye,
+                    v20-slim,
+                    v21-alpine,
+                    v21-bullseye,
+                    v21-slim,
+                    v22-alpine,
+                    v22-bullseye,
+                    v22-slim,
+                    v23-alpine,
+                    v23-bullseye,
+                    v23-slim,
                 ]
 
         name: TAG-${{ matrix.tag }}
