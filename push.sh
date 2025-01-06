@@ -10,8 +10,11 @@ if [ "$TAG" != null ]
 
   # Only build & push one image
   then
-    sh "${DIR}"/build.sh "${TAG}"
-    docker push stephenneal/node-yarn:"${TAG}"
+    docker buildx build \
+			--push \
+			-t stephenneal/node-yarn:"${TAG}" \
+			--platform "${PLATFORM}" \
+			"${DIR}"/"${TAG}"/
 
   # Build & push all images
   else
